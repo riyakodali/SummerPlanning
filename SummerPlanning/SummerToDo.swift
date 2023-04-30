@@ -28,6 +28,5 @@ struct SummerToDo: Identifiable, Codable {
     var dictionary: [String: Any] {
         return ["item": item, "dueDate": dueDate, "notes": notes, "month": month, "planType": planType]
         }
-    
 
 }
