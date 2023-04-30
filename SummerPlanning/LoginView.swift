@@ -24,7 +24,6 @@ struct LoginView: View {
     var body: some View {
         VStack {
             Image("logo")
-                .resizable()
                 .scaledToFit()
                 .padding()
             Text("Plan My Summer!")
